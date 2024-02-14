@@ -15,4 +15,8 @@ function calculateRectangleArea(){
  const area = recLength * recWidth;
  console.log(area);
  
+
+ const rectangleArea = document.getElementById('rectangle-area');
+ rectangleArea.innerText =area;
+ 
  }
